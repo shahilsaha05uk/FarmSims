@@ -10,7 +10,6 @@ public class TopDownPlayerControlsPlugin : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				// ... add public include paths required here ...
 			}
 			);
 				
@@ -25,7 +24,7 @@ public class TopDownPlayerControlsPlugin : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
+				"Core", "EnhancedInput",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
